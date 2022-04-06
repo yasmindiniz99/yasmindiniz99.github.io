@@ -1,0 +1,94 @@
+body {
+    background-color: rgb(253, 251, 251);
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+#cabecalho {
+    background-color: rgb(191, 114, 207);
+    position: fixed;
+    top: 0;
+    width: 100%; 
+    z-index: 1;
+    box-shadow: 0px 5px 8px black;
+    height: 90px;
+}
+#titulo {
+    display: inline-block;
+    font-size: 3em;
+    /* fonte do white-space: nowrap; ---> https://www.edsonemiliano.com.br/blog/como-nao-quebrar-linhas-com-css/#:~:text=Dica%20b%C3%A1sica%20para%20que%20est%C3%A1,seguir%C3%A1%20em%20uma%20%C3%BAnica%20linha. */
+    white-space: nowrap;
+    margin: 10px 80vh;
+    font-family: 'Roboto Mono', monospace;
+}
+.navegacao{
+    display: inline-block;
+    margin-left: 87%;
+    white-space: nowrap;
+}
+.navegacao ul {
+    position:absolute;
+    display: inline-block;
+    margin-top: -75px
+}
+
+.navegacao li{
+    list-style: none;
+    text-align: center;
+}
+.navegacao a{
+    color: black;
+    text-decoration: none;
+}
+.navegacao a:hover {
+    color: blue;
+    text-shadow: 2px 2px 3px red ;
+}
+.image img{
+    margin-top: 150px;
+    margin-left: 50px;
+    border-radius: 50% 100%;
+    box-shadow: 5px 5px 15px rgba(0,0,0, 0.5);
+}
+h2 {
+    font-family: 'Grape Nuts', cursive;
+    font-size: 3em;
+    letter-spacing: 3px;
+    line-height: 40px;
+}
+section:not(.image):not(.lado-direito) {
+    background-color: black;
+    color: white;
+    line-height: 20px;
+    width: 600px;
+    padding: 20px;
+    margin-left: 30px;
+    margin-top: 50px;
+
+}
+#licoes-aprendidas {
+    display: block;
+}
+aside {
+    padding-bottom: 1020px;
+    width: 220px;
+    text-align: center;
+    padding-left: 50px;
+}
+aside p {
+    display: inline-block;
+}
+.lado-direito {
+    position: relative;
+    left: 73%;
+    margin-top: -1631px;
+    background-color: black;
+    color: white;
+    width: 300px;
+    padding: 200px 30px;
+}
+#rodape {
+    margin: 100px 40%;
+    white-space: nowrap;
+}
