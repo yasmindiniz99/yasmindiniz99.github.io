@@ -11,45 +11,72 @@
     </head>
 
     <body>
-        
-        <h1>Hello World,</h1>
 
-        <h2>Main menu</h2>
-        <ul>
-            <li><a href="#quem-sou">Who am I</a></li>
-            <li><a href="#habilidades">Habilities</a></li>
-            <ul>
-                <li><a href="#soft-skills">Soft skills</a></li>
-                <li><a href="#hard-skills">Hard skills</a></li>
-            </ul>
-            <li><a href="index.html">This page in Portuguese</a></li>
-        </ul>
-        <div class ="content">
-        <h2>Yasmin Diniz dos Santos</h2>
-        <img id="minha-foto" src="imagens/minha-imagem-atual.png" alt="Yasmin's atual picture" title="my picture">
+        <header id="cabecalho">
+            <h1>Hello World,</h1>
+            <nav class="main-menu">
+                <h2 id="index">Índice</h2>
+                <ul>
+                    <li><a href="#quem-sou">Quem sou eu</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <ul>
+                        <li><a href="#soft-skills">Soft skills</a></li>
+                        <li><a href="#hard-skills">Hard skills</a></li>
+                    </ul>
+                    <li><a href="en-index.html">Essa página em inglês</a></li>
+                </ul>
+            </nav>
+        </header>
 
-        <h2 id="quem-sou">Who am I</h2>
-        <p>My name's Yasmin Diniz and actually I'm 22 old. I live in Santo André - SP and I'm <strong>learning the web development's art with Trybe</strong> to grew up mentally and professionaly.</p>
-        <p>Over the course, I studied about Unix, Bash, Git and Github - little introductions to bring me to a big knowledge above technology - and now, I'm learning HTML and CSS.</p>
-        <p>I have a slight knowledge in Adobe Photoshop, but lately I'm not using it.</p>
-        <p>Last, clicking <strong><a href="https://www.dio.me/">here</a></strong> you can acess the technology's site thart <em>I</em> most like</p>
-        </div>
-        <h2 id="habilidades">Habilities</h2>
-        <h3 id="soft-skills">Soft skills that I'm proud of</h3>
-        <ol>
-            <li><strong>Empathy</strong></li>
-            <li><strong>Colaboration with diferent people</strong></li>
-            <li>Team sense</li>
-            <li>Time management</li>
-        </ol>
-        <h3 id="hard-skills">Hard skills in development</h3>
-        <ol>
-            <li><strong>HTML</strong></li>
-            <li>Git</li>
-            <li>Github</li>
-        </ol>
-        <a href="#minha-foto">My actual picture</a>
-        
+        <main id="principal">
+            <section class="inicio">
+                <h2>Yasmin Diniz dos Santos</h2>
+                <img id="minha-foto" src="imagens/minha-imagem-atual.png" alt="foto atual da Yasmin" title="minha foto">
+                <article class ="content">
+                    <h2 id="quem-sou">Quem sou eu</h2>
+                    <p>Meu nome é Yasmin Diniz e atualmente tenho 22 anos. Nasci e moro em <span class="italic">Santo André - SP</span> e estou <span class="highlight italic">aprendendo a arte de desenvolver sites com a</span> <span class="trybe">Trybe</span> para crescer tanto mentalmente quanto profissionalmente.</p>
+                    <p>Ao longo do curso estudei sobre Unix, Bash, Git e Github - pequenas introduções para me levar a um conhecimento maior de tecnologias - e agora estou estudando HTML e CSS.</p>
+                    <p>Possuo um leve conhecimento em photoshop, mas ultimamente não estou usando-o.</p>
+                    <p>Por último, clicando <span class="highlight"><a href="https://www.dio.me/" target="_blank">aqui</a></span> você acessa o site de tecnologia que <span class="italic">eu</span> mais gosto</p>
+                </article>
+            </section>
+
+            <section id="portfolio">
+                <h2>Projetos</h2>
+                <a href="projetos/projeto-trybe-1/index.html">
+                    <video autoplay preload loop poster="imagens/demo.png" width="600px">
+                        <source src="videos/projeto-1.mp4" type="video/mp4">
+                    </video>
+                </a>
+            </section>
+
+            <section class="habilities">
+                <h2 id="habilidades">Habilidades</h2>
+                <article>
+                    <h3 id="soft-skills">Soft skills das quais me orgulho</h3>
+                    <ol>
+                        <li><span class="highlight">Empatia</span></li>
+                        <li><span class="highlight">Colaboração com pessoas diferentes</span></li>
+                        <li>Senso de time</li>
+                        <li>Gestão de tempo</li>
+                    </ol>
+                </article>
+                <article>
+                    <h3 id="hard-skills">Hard skills em desenvolvimento</h3>
+                    <ol>
+                        <li><span class="highlight">HTML</span></li>
+                        <li><span class="highlight">CSS</span></li>
+                        <li>Git</li>
+                        <li>Github</li>
+                    </ol>
+                </article>
+            </section>
+        </main>
+
+        <footer id="rodape">
+            <p><em>Todos os direitos reservados.</em></p>
+            <a href="#minha-foto">Minha foto atual</a>
+        </footer>
 
     </body>
 
