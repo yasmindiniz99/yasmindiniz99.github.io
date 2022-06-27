@@ -12,30 +12,32 @@ body {
 .logo {
     width: 250px;
     float: left;
+    box-sizing: border-box;
+    margin: 0 0 0 10%;
 }
 
 .first-title {
-    font-size: 50px;
+    font-size: 6em;
     font-weight: bold;
     color: #012840;
-    padding: 9% 0 0 15%;
+    padding: 6% 0 0 15%;
 }
 
 .main-menu {
     background: #f3f3f3;
-    padding: 20px;
+    padding: 2%;
     text-align: center;
     clear: left;
-    /* font-family: 'Open Sans', sans-serif; */
 }
 
 .navigation {
     display: inline;
     margin: 0 30px;
-    font-size: 1.3em;
+    font-size: 120%;
+    text-transform: uppercase;
 }
 
-.link {
+.link, .dio {
     color: #012840;
     text-decoration: none;
     transition: all 0.5s;
@@ -54,6 +56,128 @@ body {
     color: #F277BB;
 }
 
+.hide{
+    visibility: hidden;
+}
+
+.inicio {
+    margin: 10%;
+    background:#F277BB;
+    border: 1px solid #012840;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
 .minha-foto {
     width: 200px;
+    float: right;
+    margin: 150px 80px 20px 20px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    box-sizing: border-box;
+}
+
+.content {
+    margin: 50px 60px 80px;
+    text-align:left;
+    text-indent: 4%;
+    box-sizing: border-box;
+}
+
+.title {
+    font-size: 50px;
+    text-shadow: black 2px 3px 4px;
+}
+
+.title::before {
+    content:"<";
+}
+
+.title::after {
+    content:">";
+}
+
+.paragraphs {
+    font-family: 'Open Sans', sans-serif;
+    margin: 30px 40px 20px 20px;
+    font-size: 22px;
+}
+
+.paragraph {
+    margin: 27px 0 0 0;;
+}
+
+.paragraph1:first-letter {
+    font-size: 25px;
+    font-weight: bolder;
+    color: #012840;
+    font-family: 'Fira Code', monospace;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.highlight {
+    color:#012840;
+    text-shadow: #F22EBE 1px 2px 2px;
+    background: none;
+}
+
+.trybe, .alura, .anhembi{
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.trybe {
+    color: #2ec18b;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.trybe::before {
+    background-image: url("https://pbs.twimg.com/profile_images/1412038025098444800/Kx6Wj0hl_400x400.jpg" );
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 25px;
+    height: 20px;
+    content: "";
+}
+
+.alura {
+    color: #051932;
+}
+
+.alura::before {
+    background-image: url("imagens/download.jpg" );
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 25px;
+    height: 20px;
+    content: "";
+}
+
+.anhembi {
+    color: #00786c;
+}
+
+.anhembi::before {
+    background-image: url("imagens/download.png" );
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 25px;
+    height: 20px;
+    content: "";
+}
+
+.trybe:hover, .alura:hover, .anhembi:hover, .dio:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.portfolio {
+    clear: right;
 }

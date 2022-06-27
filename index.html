@@ -22,6 +22,7 @@
             <nav class="main-menu">
                 <ul class="nav">
                     <li class="navigation"><a href="#quem-sou" class="link">Quem sou eu</a></li>
+                    <li class="navigation"><a href="#portfolio" class="link">Projetos</a></li>
                     <li class="navigation"><a href="#habilidades" class="link">Habilidades</a></li>
                     <li class="navigation"><a href="#soft-skills" class="link">Soft skills</a></li>
                     <li class="navigation"><a href="#hard-skills" class="link">Hard skills</a></li>
@@ -30,20 +31,22 @@
             </nav>
         </header>
 
-        <main id="principal">
+        <main id="principal" class="principal">
             <section class="inicio">
-                <h2 class="hide">Yasmin Diniz dos Santos</h2>
+                <h2 class="hide" id="quem-sou">Yasmin Diniz dos Santos</h2>
                 <img id="minha-foto" class="minha-foto" src="imagens/eu-linda.jpg" alt="foto atual da Yasmin" title="minha foto">
                 <article class ="content">
-                    <h2 id="quem-sou" class="title">Quem sou eu</h2>
-                    <p>Meu nome é Yasmin Diniz e atualmente tenho 23 anos. Nasci e moro em <span class="italic">Santo André - SP</span> e estou <span class="highlight italic">aprendendo a arte de desenvolver sites com a</span> <span class="trybe">Trybe</span> para crescer tanto mentalmente quanto profissionalmente.</p>
-                    <p>Ao longo do curso estudei sobre Unix, Bash, Git e Github - pequenas introduções para me levar a um conhecimento maior de tecnologias - e agora estou estudando HTML e CSS.</p>
-                    <p>Possuo um leve conhecimento em photoshop, mas ultimamente não estou usando-o.</p>
-                    <p>Por último, clicando <span class="highlight"><a href="https://www.dio.me/" target="_blank">aqui</a></span> você acessa o site de tecnologia que <span class="italic">eu</span> mais gosto</p>
+                    <h2 class="title">Quem sou eu</h2>
+                    <div class="paragraphs">
+                        <p class="paragraph paragraph1">Hello world, meu nome é Yasmin Diniz e atualmente tenho 23 anos. Nasci e moro em <em class="italic">Santo André - SP</em> e estou <em class="highlight italic">aprendendo a arte de desenvolver sites</em> para crescer tanto mentalmente quanto profissionalmente. Já estudei durante um mês na <a href="https://www.betrybe.com/" class="trybe">Trybe</a>, atualmente estou estudando com a <a href="https://www.alura.com.br/" class="alura">Alura</a> e recentemente entrei para a <a href="https://portal.anhembi.br/" class="anhembi">Universidade Anhembi Morumbi</a>, estarei estudando Análise e Desenvolvimento de Sistemas</p>
+                        <p class="paragraph">Ao longo do curso na Trybe estudei sobre Unix, Bash, Git e Github - pequenas introduções para me levar a um conhecimento maior de tecnologias - HTML e CSS. Estou dando continuidade aos estudos de HTML e CSS pela Alura.</p>
+                        <p class="paragraph">Possuo um básico conhecimento em photoshop, canva e no pacote Office como um todo.</p>
+                        <p class="paragraph">Por último, clicando <mark class="highlight"><a href="https://www.dio.me/" target="_blank" class="dio">aqui</a></mark> você acessa o site de tecnologia que <span class="italic">eu</span> mais gosto e uso para estudar gratuitamente.</p>
+                    </div>
                 </article>
             </section>
 
-            <section id="portfolio">
+            <section id="portfolio" class="portfolio">
                 <h2 class="title">Projetos</h2>
                 <a href="projetos/projeto-trybe-1/index.html">
                     <video autoplay preload loop poster="imagens/demo.png" width="600px">
