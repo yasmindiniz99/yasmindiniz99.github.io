@@ -1,10 +1,8 @@
-html {
-    background:linear-gradient(#FFFFFF, #049DD9)
-}
 body {
     font-family: 'Fira Code', monospace;
-    background: linear-gradient(360deg, #049DD9, #F277BB,#FFFFFF 20in);
-    background-size: contain;
+    background: linear-gradient(360deg, #049DD9 10in, #F277BB,#FFFFFF 20in);
+    width: 100%;
+    height: 100%;
 }
 
 .cabecalho {
@@ -38,7 +36,7 @@ body {
 
 .navigation {
     display: inline;
-    margin: 0 30px;
+    margin: 0 20px;
     font-size: 120%;
     text-transform: uppercase;
 }
@@ -77,7 +75,7 @@ body {
 .minha-foto {
     width: 200px;
     float: right;
-    margin: 150px 80px 20px 20px;
+    margin: 0 80px 20px 20px;
     border-radius: 50%;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
     box-sizing: border-box;
@@ -206,11 +204,18 @@ body {
 .second-title {
     position: relative;
     font-size: 145%;
-    padding: 10px 5%;
     margin: 5% 30% 5% 20%;
     border: 1px solid black;
     border-radius: 40px;
     height: 100%;
+}
+
+.skills > h3 {
+    padding: 10px 15px 10px 5%;
+}
+
+.skills2 > h3 {
+    padding: 10px 15px 10px 5%;
 }
 
 .habilities > h2 {
@@ -231,30 +236,52 @@ ol {
 }
 
 footer {
-    background-color: #049DD9;
+    background: black;
+    background-size: cover;
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    padding-top: 10px;
 }
 
 .nav-title {
-    font-size: 120%;
+    font-size: 13px;
     font-weight: bold;
+    padding: 0 1px 0 0;
 }
 
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
+    margin: 7% auto 0 auto;
+    justify-items: start;
+    align-items: start;
+    vertical-align: text-top;
 }
+
+.logo2 {
+    width: 15%;
+    float: left;
+    margin: 15px 0 0 15px;
+}
+
+.left-box {
+    margin-left: 10px;
+}
+
 a.link2:hover {
     color: white;
     text-decoration: underline;
 }
 .section-footer {
-    margin: 0 auto;
     font-size: 90%;
-    text-align: justify;
-    color: white
+    color: white;
+    padding: 0 0 0 5px;
 }
-
 .copyright {
+    background: black;
     text-align: center;
     color: white;
+    padding: 10px;
+    clear: left;
 }

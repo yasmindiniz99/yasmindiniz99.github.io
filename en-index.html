@@ -1,81 +1,144 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pr-br">
     
     <head>
         <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no, , user-scalable=no">
         <title>Portfólio - Yasmin</title>
+        <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" type="text/css" href="style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     </head>
 
     <body>
 
-        <header id="cabecalho">
-            <h1>Hello World,</h1>
+        <header class="cabecalho">
+            <h1><img src="imagens/Y.png" alt="logo do portfólio" class="logo"></h1>
+            <h2 class="first-title">Yasmin Diniz</h2>
             <nav class="main-menu">
-                <h2 id="index">Índice</h2>
-                <ul>
-                    <li><a href="#quem-sou">Quem sou eu</a></li>
-                    <li><a href="#habilidades">Habilidades</a></li>
-                    <ul>
-                        <li><a href="#soft-skills">Soft skills</a></li>
-                        <li><a href="#hard-skills">Hard skills</a></li>
-                    </ul>
-                    <li><a href="en-index.html">Essa página em inglês</a></li>
+                <ul class="nav">
+                    <li class="navigation"><a href="#quem-sou" class="link">Who am I</a></li>
+                    <li class="navigation"><a href="#portfolio" class="link">Projects</a></li>
+                    <li class="navigation"><a href="#habilidades" class="link">Habilities</a></li>
+                    <li class="navigation"><a href="#soft-skills" class="link">Soft skills</a></li>
+                    <li class="navigation"><a href="#hard-skills" class="link">Hard skills</a></li>
+                    <li class="navigation"><a href="#contato" class="link">Contact</a></li>
+                    <li class="navigation"><a href="index.html" class="link">This page in Portuguese</a></li>
                 </ul>
             </nav>
         </header>
 
-        <main id="principal">
+        <main id="principal" class="principal">
             <section class="inicio">
-                <h2>Yasmin Diniz dos Santos</h2>
-                <img id="minha-foto" src="imagens/minha-imagem-atual.png" alt="foto atual da Yasmin" title="minha foto">
+                <h2 class="hide" id="quem-sou">Yasmin Diniz dos Santos</h2>
+                <img id="minha-foto" class="minha-foto" src="imagens/eu-linda.jpg" alt="foto atual da Yasmin" title="minha foto">
                 <article class ="content">
-                    <h2 id="quem-sou">Quem sou eu</h2>
-                    <p>Meu nome é Yasmin Diniz e atualmente tenho 22 anos. Nasci e moro em <span class="italic">Santo André - SP</span> e estou <span class="highlight italic">aprendendo a arte de desenvolver sites com a</span> <span class="trybe">Trybe</span> para crescer tanto mentalmente quanto profissionalmente.</p>
-                    <p>Ao longo do curso estudei sobre Unix, Bash, Git e Github - pequenas introduções para me levar a um conhecimento maior de tecnologias - e agora estou estudando HTML e CSS.</p>
-                    <p>Possuo um leve conhecimento em photoshop, mas ultimamente não estou usando-o.</p>
-                    <p>Por último, clicando <span class="highlight"><a href="https://www.dio.me/" target="_blank">aqui</a></span> você acessa o site de tecnologia que <span class="italic">eu</span> mais gosto</p>
+                    <h2 class="title">Who am I</h2>
+                    <div class="paragraphs">
+                        <p class="paragraph paragraph1">Hello world, my name's Yasmin Diniz and actually I'm 23 years old. I was born and live in<em class="italic"> Santo André - SP</em> and I'm<em class="highlight italic">learning the website development's arts </em>to grow both mentally and professionally. I've studied a month at <a href="https://www.betrybe.com/" class="trybe">Trybe's</a> school, now I'm studying with <a href="https://www.alura.com.br/" class="alura">Alura's</a> school and recently I joined the <a href="https://portal.anhembi.br/" class="anhembi">Anhembi Morumbi University</a>, I'm be studying Sistem's development and analysis.</p>
+                        <p class="paragraph">During the course at Trybe I studied about Unix, Bash, Git and Github - small introductions to lead me to a greater knowledge of technologies - HTML and CSS. I am continuing my studies of HTML and CSS by Alura.</p>
+                        <p class="paragraph">I have a basic knowledge of photoshop, canva and the Office package as a whole.</p>
+                        <p class="paragraph">Lastly, if you click <mark class="highlight"><a href="https://www.dio.me/" target="_blank" class="dio">here</a></mark> you can acess the site <span class="italic">I </span>like the most about technology.</p>
+                    </div>
                 </article>
             </section>
 
-            <section id="portfolio">
-                <h2>Projetos</h2>
-                <a href="projetos/projeto-trybe-1/index.html">
-                    <video autoplay preload loop poster="imagens/demo.png" width="600px">
-                        <source src="videos/projeto-1.mp4" type="video/mp4">
-                    </video>
-                </a>
+            <section id="portfolio" class="portfolio">
+                <h2 class="title">Projects</h2>
+                <p class="projects">
+                    <a href="projetos/projeto-trybe-1/index.html">
+                        <video autoplay preload loop poster="imagens/demo.png" width="50%">
+                            <source src="videos/projeto-1.mp4" type="video/mp4">
+                        </video>
+                    </a>
+                </p>
             </section>
 
             <section class="habilities">
-                <h2 id="habilidades">Habilidades</h2>
-                <article>
-                    <h3 id="soft-skills">Soft skills das quais me orgulho</h3>
-                    <ol>
-                        <li><span class="highlight">Empatia</span></li>
-                        <li><span class="highlight">Colaboração com pessoas diferentes</span></li>
-                        <li>Senso de time</li>
-                        <li>Gestão de tempo</li>
-                    </ol>
-                </article>
-                <article>
-                    <h3 id="hard-skills">Hard skills em desenvolvimento</h3>
-                    <ol>
-                        <li><span class="highlight">HTML</span></li>
-                        <li><span class="highlight">CSS</span></li>
-                        <li>Git</li>
-                        <li>Github</li>
-                    </ol>
-                </article>
+                <h2 id="habilidades" class="title habilidades">Habilities</h2>
+                <div class="div">
+                    <article class="skills">
+                        <h3 id="soft-skills" class="second-title">Soft skills that I'm proud</h3>
+                        <ol>
+                            <li class="soft-skills"><span class="highlight">Empathy</span></li>
+                            <li class="soft-skills"><span class="highlight">Collaboration with different people</span></li>
+                            <li class="soft-skills">Team sense</li>
+                            <li class="soft-skills">Time management</li>
+                        </ol>
+                    </article>
+                    <article class="skills2">
+                        <h3 id="hard-skills" class="second-title">Hard skills in development</h3>
+                        <ol>
+                            <li class="hard-skills"><span class="highlight">HTML - Intermediary</span></li>
+                            <li class="hard-skills"><span class="highlight">CSS - Intermediary</span></li>
+                            <li class="hard-skills">Git - Basic</li>
+                            <li class="hard-skills">Github - Basic</li>
+                            <li class="hard-skills">Unix - Basic</li>
+                            <li class="hard-skills">Bash - Basic</li>
+                            <li class="hard-skills">Inglês - Intermediary</li>
+                        </ol>
+                    </article>
+                </div>
             </section>
         </main>
 
         <footer id="rodape">
-            <p><em>Todos os direitos reservados.</em></p>
-            <a href="#minha-foto">Minha foto atual</a>
+            <section>
+                <nav class="nav2">
+                    <ul>
+                        <li><a href="index.html"><img src="imagens/Y.png" alt="logo do portfolio" class="logo2"></a></li>
+                    </ul>
+                </nav>
+            </section>
+            
+            <div class="grid-container">
+                <section class="section-footer left-box">
+                    <h2 class="nav-title">Social network</h2>
+                    <nav class="nav2">
+                        <ul>
+                            <li><a href="" class="link link2">Linkedin</a></li>
+                            <li><a href="" class="link link2">Github</a></li>
+                            <li><a href="" class="link link2">Twitter</a></li>
+                            <li><a href="" class="link link2">Instagram</a></li>
+                        </ul>
+                    </nav>
+                </section>
+
+                <section class="section-footer middle-box">
+                    <h2 class="nav-title" id="contato">Contact</h2>
+                    <nav class="nav2">
+                        <ul>
+                            <li><a href="" class="link link2">Whatsapp</a></li>
+                            <li><a href="" class="link link2">Email</a></li>
+                        </ul>
+                    </nav>
+                </section>
+
+                <section class="section-footer right-box">
+                    <h2 class="nav-title">Navigation</h2>
+                    <nav class="nav2">
+                        <ul class="nav">
+                            <li class=""><a href="#quem-sou" class="link link2">Who am I</a></li>
+                            <li class=""><a href="#portfolio" class="link link2">Projects</a></li>
+                            <li class=""><a href="#habilidades" class="link link2">Habilities</a></li>
+                            <li class=""><a href="#soft-skills" class="link link2">Soft skills</a></li>
+                            <li class=""><a href="#hard-skills" class="link link2">Hard skills</a></li>
+                            <li class=""><a href="index.html" class="link link2">In Portuguese</a></li>
+                            <li class=""><a href="#minha-foto" class="link link2">Picture</a></li>
+                        </ul>
+                    </nav>
+                </section>
+            </div>
+
+            <h2 class="footer">
+                <p class="copyright"><em>&copy;Copyright 2022. All rights reserved</em></p>
+            </h2>
         </footer>
 
     </body>
