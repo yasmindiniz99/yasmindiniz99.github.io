@@ -7,6 +7,7 @@ body {
     width: 100%;
     margin: 0 auto;
     box-shadow: #f277bb 0px 14px 25px, #04c4d9 0px 14px 28px;
+    height: 100%;
 }
 
 .logo {
@@ -17,7 +18,7 @@ body {
 }
 
 .first-title {
-    font-size: 6em;
+    font-size: 5em;
     font-weight: bold;
     color: #012840;
     padding: 6% 0 0 15%;
@@ -85,7 +86,7 @@ body {
 }
 
 .title {
-    font-size: 3em;
+    font-size: 250%;
     text-shadow: black 2px 3px 4px;
 }
 
@@ -198,14 +199,13 @@ body {
 
 .second-title {
     position: relative;
-    width: 600px;
     text-align: center;
     font-size: 185%;
     padding: 10px 1px;
     margin: 5% 20% 5% 20%;
-    border: 2px solid black;
+    border: 1px solid black;
     border-radius: 40px;
-
+    height: 100%
 }
 ol {
     display: inline-block;
