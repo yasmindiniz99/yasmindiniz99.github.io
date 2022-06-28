@@ -3,6 +3,7 @@
     
     <head>
         <meta charset="UTF-8">
+
         <title>Portfólio - Yasmin</title>
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" type="text/css" href="style.css">
@@ -48,39 +49,84 @@
 
             <section id="portfolio" class="portfolio">
                 <h2 class="title">Projetos</h2>
-                <a href="projetos/projeto-trybe-1/index.html">
-                    <video autoplay preload loop poster="imagens/demo.png" width="600px">
-                        <source src="videos/projeto-1.mp4" type="video/mp4">
-                    </video>
-                </a>
+                <p class="projects">
+                    <a href="projetos/projeto-trybe-1/index.html">
+                        <video autoplay preload loop poster="imagens/demo.png" width="600px">
+                            <source src="videos/projeto-1.mp4" type="video/mp4">
+                        </video>
+                    </a>
+                </p>
             </section>
 
             <section class="habilities">
-                <h2 id="habilidades" class="title">Habilidades</h2>
-                <article>
-                    <h3 id="soft-skills" class="second-title">Soft skills das quais me orgulho</h3>
-                    <ol>
-                        <li><span class="highlight">Empatia</span></li>
-                        <li><span class="highlight">Colaboração com pessoas diferentes</span></li>
-                        <li>Senso de time</li>
-                        <li>Gestão de tempo</li>
-                    </ol>
-                </article>
-                <article>
-                    <h3 id="hard-skills" class="second-title">Hard skills em desenvolvimento</h3>
-                    <ol>
-                        <li><span class="highlight">HTML</span></li>
-                        <li><span class="highlight">CSS</span></li>
-                        <li>Git</li>
-                        <li>Github</li>
-                    </ol>
-                </article>
+                <h2 id="habilidades" class="title habilidades">Habilidades</h2>
+                <div class="div">
+                    <article>
+                        <h3 id="soft-skills" class="second-title">Soft skills das quais me orgulho</h3>
+                        <ol>
+                            <li class="soft-skills"><span class="highlight">Empatia</span></li>
+                            <li class="soft-skills"><span class="highlight">Colaboração com pessoas diferentes</span></li>
+                            <li class="soft-skills">Senso de time</li>
+                            <li class="soft-skills">Gestão de tempo</li>
+                        </ol>
+                    </article>
+                    <article>
+                        <h3 id="hard-skills" class="second-title">Hard skills em desenvolvimento</h3>
+                        <ol>
+                            <li class="hard-skills"><span class="highlight">HTML - Intermediário</span></li>
+                            <li class="hard-skills"><span class="highlight">CSS - Intermediário</span></li>
+                            <li class="hard-skills">Git - Básico</li>
+                            <li class="hard-skills">Github - Básico</li>
+                            <li class="hard-skills">Unix - Básico</li>
+                            <li class="hard-skills">Bash - Básico</li>
+                            <li class="hard-skills">Inglês - Intermediário</li>
+                        </ol>
+                    </article>
+                </div>
             </section>
         </main>
 
         <footer id="rodape">
-            <p><em>Todos os direitos reservados.</em></p>
-            <a href="#minha-foto">Minha foto atual</a>
+            <section>
+                <h2 class="nav-title">Redes sociais</h2>
+                <nav class="nav2">
+                    <ul>
+                        <li><a href="" class="link">Linkedin</a></li>
+                        <li><a href="" class="link">Github</a></li>
+                        <li><a href="" class="link">Twitter</a></li>
+                        <li><a href="" class="link">Instagram</a></li>
+                    </ul>
+                </nav>
+            </section>
+
+            <section>
+                <h2 class="nav-title">Contato</h2>
+                <nav class="nav2">
+                    <ul>
+                        <li><a href="" class="link">Whatsapp</a></li>
+                        <li><a href="" class="link">Email</a></li>
+                    </ul>
+                </nav>
+            </section>
+
+            <section>
+                <h2 class="nav-title">Navegação</h2>
+                <nav class="nav2">
+                    <ul class="nav">
+                        <li class=""><a href="#quem-sou" class="link">Quem sou eu</a></li>
+                        <li class=""><a href="#portfolio" class="link">Projetos</a></li>
+                        <li class=""><a href="#habilidades" class="link">Habilidades</a></li>
+                        <li class=""><a href="#soft-skills" class="link">Soft skills</a></li>
+                        <li class=""><a href="#hard-skills" class="link">Hard skills</a></li>
+                        <li class=""><a href="en-index.html" class="link">Essa página em inglês</a></li>
+                        <li class=""><a href="#minha-foto" class="link">Minha foto atual</a></li>
+                    </ul>
+                </nav>
+            </section>
+
+            <h2 class="footer">
+                <p><em>Todos os direitos reservados.</em></p>
+            </h2>
         </footer>
 
     </body>
