@@ -1,5 +1,10 @@
+html {
+    background:linear-gradient(#FFFFFF, #049DD9)
+}
 body {
     font-family: 'Fira Code', monospace;
+    background: linear-gradient(360deg, #049DD9, #F277BB,#FFFFFF 20in);
+    background-size: contain;
 }
 
 .cabecalho {
@@ -11,14 +16,14 @@ body {
 }
 
 .logo {
-    width: 250px;
+    width: 20%;
     float: left;
     box-sizing: border-box;
     margin: 0 0 0 10%;
 }
 
 .first-title {
-    font-size: 5em;
+    font-size: 500%;
     font-weight: bold;
     color: #012840;
     padding: 6% 0 0 15%;
@@ -86,8 +91,9 @@ body {
 }
 
 .title {
-    font-size: 250%;
+    font-size: 190%;
     text-shadow: black 2px 3px 4px;
+    box-sizing: border-box;
 }
 
 .title::before {
@@ -193,25 +199,30 @@ body {
 }
 
 .habilities {
-    margin: 10%;
+    margin: 10% auto;
     position: relative;
 }
 
 .second-title {
     position: relative;
-    text-align: center;
-    font-size: 185%;
-    padding: 10px 1px;
-    margin: 5% 20% 5% 20%;
+    font-size: 145%;
+    padding: 10px 5%;
+    margin: 5% 30% 5% 20%;
     border: 1px solid black;
     border-radius: 40px;
-    height: 100%
+    height: 100%;
 }
+
+.habilities > h2 {
+    box-sizing: border-box;
+    text-align: center;
+}
+
 ol {
     display: inline-block;
     width: 45%;
-    margin: 0 30%;
-    font-size: 1.3em;
+    margin: 0 0 0 30%;
+    font-size: 130%;
     line-height: 30px;
 }
 
@@ -219,6 +230,31 @@ ol {
     content: "\2605  "
 }
 
-.hard-skills {
+footer {
+    background-color: #049DD9;
+}
 
+.nav-title {
+    font-size: 120%;
+    font-weight: bold;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+a.link2:hover {
+    color: white;
+    text-decoration: underline;
+}
+.section-footer {
+    margin: 0 auto;
+    font-size: 90%;
+    text-align: justify;
+    color: white
+}
+
+.copyright {
+    text-align: center;
+    color: white;
 }
