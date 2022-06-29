@@ -1,0 +1,136 @@
+@media screen and (max-width: 480px) {
+
+    body {
+        font-family: 'Fira Code', monospace;
+        background: linear-gradient(360deg, #049DD9 10in, #F277BB,#FFFFFF 20in);
+    }
+
+    .cabecalho {
+        background: linear-gradient(#f277bb, #04c4d9);
+        margin: 0 auto;
+        box-shadow: #f277bb 0px 14px 25px, #04c4d9 0px 14px 28px;
+    }
+
+    .logo {
+        width: 40%;
+        float: left;
+        box-sizing: border-box;
+        margin: 0 0 0 10%;
+    }
+
+    .first-title {
+        font-size: 300%;
+        font-weight: bold;
+        color: #012840;
+        padding: 6% 0 0 15%;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    .main-menu {
+        background: #f3f3f3;
+        padding: 2%;
+        text-align: center;
+        clear: left;
+    }
+
+    .navigation {
+        display: inline;
+        margin: 0 20px;
+        font-size: 130%;
+        text-transform: uppercase;
+    }
+
+    .inicio {
+        margin: 10%;
+        background:#F277BB;
+        border: 1px solid #012840;
+        border-radius: 50px;
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    }
+
+    .minha-foto {
+        width: calc( 200px - 10%);
+        float: right;
+        margin: 0 80px 20px 20px;
+        border-radius: 50%;
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+        box-sizing: border-box;
+    }
+
+    .content {
+        margin: 50px 2% 20px 2%;
+        text-align:left;
+        text-indent: 4%;
+    }
+
+    .title {
+        font-size: 190%;
+        text-shadow: black 2px 3px 4px;
+        box-sizing: border-box;
+    }
+
+    .paragraphs {
+        font-family: 'Open Sans', sans-serif;
+        margin: 30px 40px 0 20px;
+        font-size: 22px;
+        box-sizing: border-box;
+    }
+
+    .videos {
+        width: 100%;
+    }
+
+    .second-title {
+        position: relative;
+        font-size: 145%;
+        margin: 5% 10% 5% 10%;
+        border: 1px solid black;
+        border-radius: 40px;
+        height: 100%;
+        text-align: center;
+    }
+
+    ol {
+        display: inline-block;
+        text-align: left;
+        margin-left: 30%;
+        font-size: 120%;
+        line-height: 30px;
+    }
+
+    footer {
+        background: black;
+        background-size: cover;
+        width: 100%;
+        margin: 0;
+        height: 100%;
+        padding-top: 30px;
+
+    }
+
+    .logo2 {
+        width: 200px;
+    }
+
+    .grid-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+    .section-footer {
+        font-size: 110%;
+        color: white;
+        padding: 15px 0;
+    }
+    .left-box{
+        padding: 0;
+        margin-right: 20px;
+    }
+    section.middle-box {
+        margin-right: 30px;
+    }
+}
